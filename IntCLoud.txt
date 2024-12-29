@@ -1,0 +1,13 @@
+hadoop fs copyFromlocal/var/abc/file /hdfs/dn/blck
+
+hdfs dfs -rebalance
+
+yarn -applicationID applicselation_1523894423524_0001 >> abc.txt
+
+Select * from employee 
+where salary 
+
+
+hadoop fs -copyFromlocal localpath hdfspath
+
+yarn logs -applicationId <application-ID>
